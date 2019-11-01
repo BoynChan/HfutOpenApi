@@ -1,7 +1,7 @@
 package top.boyn.hfut.service;
 
 import top.boyn.hfut.crawler.SemesterCrawler;
-import top.boyn.hfut.domain.base.Credential;
+import top.boyn.hfut.Credential;
 import top.boyn.hfut.domain.semester.Semester;
 import top.boyn.hfut.exception.UserException;
 

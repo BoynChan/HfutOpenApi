@@ -7,7 +7,7 @@ import com.alibaba.fastjson.JSONPath;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import top.boyn.hfut.constant.JWXT_CONSTANT;
-import top.boyn.hfut.domain.base.Credential;
+import top.boyn.hfut.Credential;
 import top.boyn.hfut.domain.program.Program;
 import top.boyn.hfut.domain.program.ProgramItem;
 

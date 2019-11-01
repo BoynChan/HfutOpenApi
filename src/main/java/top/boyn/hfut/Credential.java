@@ -1,4 +1,4 @@
-package top.boyn.hfut.domain.base;
+package top.boyn.hfut;
 
 import top.boyn.hfut.crawler.LoginCrawler;
 import top.boyn.hfut.exception.UserException;

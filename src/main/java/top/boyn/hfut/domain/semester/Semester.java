@@ -41,9 +41,7 @@ public class Semester {
     @Override
     public String toString() {
         return "Semester{" +
-                "appCode='" + appCode + '\'' +
-                ", jwxtCode='" + jwxtCode + '\'' +
-                ", name='" + name + '\'' +
+                "name='" + name + '\'' +
                 ", weeks=" + weeks +
                 ", startDate='" + startDate + '\'' +
                 ", endDate='" + endDate + '\'' +

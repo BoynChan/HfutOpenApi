@@ -1,7 +1,7 @@
 package top.boyn.hfut.service;
 
 import top.boyn.hfut.crawler.ProgramCrawler;
-import top.boyn.hfut.domain.base.Credential;
+import top.boyn.hfut.Credential;
 import top.boyn.hfut.domain.program.Program;
 import top.boyn.hfut.exception.UserException;
 

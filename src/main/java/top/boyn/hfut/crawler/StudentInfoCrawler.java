@@ -4,7 +4,7 @@ import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import top.boyn.hfut.constant.JWXT_CONSTANT;
-import top.boyn.hfut.domain.base.Credential;
+import top.boyn.hfut.Credential;
 import top.boyn.hfut.domain.studentInfo.StudentInfo;
 import us.codecraft.xsoup.Xsoup;
 

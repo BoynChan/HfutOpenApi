@@ -8,7 +8,7 @@ import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import top.boyn.hfut.constant.JWXT_CONSTANT;
 import top.boyn.hfut.constant.TIME_UNIT;
-import top.boyn.hfut.domain.base.Credential;
+import top.boyn.hfut.Credential;
 import top.boyn.hfut.domain.course.Course;
 import top.boyn.hfut.domain.semester.Semester;
 import top.boyn.hfut.utils.CourseWeekParser;

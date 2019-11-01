@@ -5,20 +5,65 @@ package top.boyn.hfut.domain.studentInfo;
  * @date 2019/11/1
  */
 public class StudentInfo {
+    /**
+     * 中文名
+     */
     private String chineseName;
+    /**
+     * 英文名
+     */
     private String englishName;
+    /**
+     * 性别
+     */
     private String gender;
+    /**
+     * 证件类型
+     */
     private String documentType;
+    /**
+     * 证件号
+     */
     private String documentNumber;
+    /**
+     * 年级
+     */
     private String grade;
+    /**
+     * 教育程度
+     */
     private String educationLevel;
+    /**
+     * 学生类型
+     */
     private String studentType;
+    /**
+     * 学院
+     */
     private String depart;
+    /**
+     * 专业
+     */
     private String major;
+    /**
+     * 校区
+     */
     private String campus;
+    /**
+     * 注册日期
+     */
     private String admissionDate;
+    /**
+     * 预期毕业日期
+     */
     private String graduateDate;
+    /**
+     * 生源省份
+     */
     private String province;
+    /**
+     * 高考分数
+     */
     private String gaoKaoScore;
 
     @Override
