@@ -66,6 +66,11 @@ public class StudentInfo {
      */
     private String gaoKaoScore;
 
+    /**
+     * 班级
+     */
+    private String className;
+
     @Override
     public String toString() {
         return "StudentInfo{" +
@@ -84,7 +89,16 @@ public class StudentInfo {
                 ", graduateDate='" + graduateDate + '\'' +
                 ", province='" + province + '\'' +
                 ", gaoKaoScore='" + gaoKaoScore + '\'' +
+                ", className='" + className + '\'' +
                 '}';
+    }
+
+    public String getClassName() {
+        return className;
+    }
+
+    public void setClassName(String className) {
+        this.className = className;
     }
 
     public String getChineseName() {

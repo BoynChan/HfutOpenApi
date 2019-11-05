@@ -48,6 +48,7 @@ public class StudentInfoCrawler {
         info.setEducationLevel(Xsoup.compile("//*[@id=\"base-info\"]/div/div[2]/div/dl/dd[4]").evaluate(text).getElements().text());
         info.setEnglishName(Xsoup.compile("//*[@id=\"base-info\"]/div/div[1]/ul/li[5]/span[2]").evaluate(text).getElements().text());
         info.setGaoKaoScore(Xsoup.compile("//*[@id=\"recruit-info\"]/div/div[2]/div/dl/dd[18]").evaluate(text).getElements().text());
+        info.setClassName(Xsoup.compile("/html/body/div/div/div/div[2]/div/div[1]/div/div[2]/div/dl/dd[9]").evaluate(text).getElements().text());
         info.setGender(Xsoup.compile("//*[@id=\"base-info\"]/div/div[1]/ul/li[6]/span[2]").evaluate(text).getElements().text());
         info.setGrade(Xsoup.compile("//*[@id=\"base-info\"]/div/div[2]/div/dl/dd[3]").evaluate(text).getElements().text());
         info.setMajor(Xsoup.compile("//*[@id=\"base-info\"]/div/div[2]/div/dl/dd[7]").evaluate(text).getElements().text());
