@@ -56,7 +56,10 @@ public class JWXT_CONSTANT {
      * 获取周课程信息的接口URL
      */
     public static final String SCHEDULE_DATUM_URL = "http://jxglstu.hfut.edu.cn/eams5-student/ws/schedule-table/datum";
-
+    /**
+     * 获取成绩的接口
+     */
+    public static final String SCORE_URL = "http://jxglstu.hfut.edu.cn/eams5-student/for-std/grade/sheet/info/";
     /**
      * cookie -- SRVID
      */

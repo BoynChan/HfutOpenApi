@@ -46,6 +46,7 @@ public class Demo {
 - 培养计划的课程
 - 课程表
 - 学期信息
+- 成绩
 
 #### 个人信息
 
@@ -108,5 +109,22 @@ List<Semester> semesterList = SemesterService.getSemesterList(credential);
 
 ```java
 Program program = ProgramService.getProgram(credential);
+```
+
+
+#### 成绩
+
+包括以下字段
+
+1.课程名称
+2.课程绩点
+3.课程学分
+4.课程成绩
+5.课程细分成绩列表
+
+初始化获得了凭证后,可以根据凭证,运行以下代码获得培养计划信息
+
+```java
+List<Score> scoreList = ScoreCrawler.getScoreList(semester, credential);
 ```
 
